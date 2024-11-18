@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('pink.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: #ffe4e6;
+}
+
+
+h1 {
+  text-align: center;
+  color: #d6336c;
+  font-family: 'Pacifico', cursive; 
+  margin-bottom: 20px;
+}
+
+
+.custom-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffd6dc; 
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-section {
+  margin-bottom: 20px;
+  border: 2px dashed #ffd6dc; 
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff; 
+  transition: transform 0.3s ease; 
+}
+
+.form-section:hover {
+  transform: scale(1.02); 
+  background-color: #ffeef1; 
+}
+
+h2 {
+  font-weight: bold;
+  color: #d6336c; 
+  font-family: 'Pacifico', cursive; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #d6336c; 
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffd6dc; 
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus, select:focus {
+  border-color: #ff99ac; 
+  outline: none;
+  background-color: #ffeef1; 
+}
+
+
+.submit-btn {
+  background-color: #d6336c; 
+  color: #fff; 
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.submit-btn:hover {
+  background-color: #ff6f91; 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+
+.form-section:hover h2 {
+  color: #ff6f91; 
+}
+
+
+@media (max-width: 768px) {
+  .custom-form {
+    padding: 15px;
+  }
+
+  input, select, button {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
